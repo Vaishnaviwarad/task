@@ -1,0 +1,26 @@
+b = input("name:")
+a = input(f"{b}:")
+
+if a == "HI":
+    print("AI: HI",b, " I AM VAISHNAVI")
+    print("AI: GOOD MORNING")
+    c = input("HOW IS YOUR DAY GOING?")
+    print(b,":",c)
+    if c == "GREAT":
+       print("AI:nice to here that ")
+       d = input("AI: SO WHAT HAPPEN GREAT TODAY ?")
+       if d == "NOTHING SPECIAL" :
+          print("AI: GREAT PEOPLE MAKE USUAL DAYS SPECIAL ")
+       else:
+         print("THAT SOUNDS INTRESTING")
+    else :
+     print("sad to hear that")
+else:
+    print("SORRY UNKNOWN ERROR")
+
+a = input(f"{b}:")
+print("AI:"" BYE,SEE YOU SOON",b)
+
+
+
+
